@@ -40,7 +40,7 @@ payload = {
 }
 
 # making the intial request
-initial_request = requests.get('https://partner-api.prizepicks.com/projections', params=payload, header=HEADERS, timeout=30)
+initial_request = requests.get('https://partner-api.prizepicks.com/projections', params=payload, headers=HEADERS, timeout=30)
 # parsing the response json
 pp_data = initial_request.json()
 
