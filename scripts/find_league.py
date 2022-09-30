@@ -5,8 +5,8 @@ import sys
 def find_league(league_argv):
   print('\
   ---------------------\n\
-  Searching for lines for {0}.\n\
-  ---------------------'
+  Searching for lines for {0}\n\
+  ---------------------'.format(league_argv)
   )
   LEAGUES = [
     ('NFL', '9'),
